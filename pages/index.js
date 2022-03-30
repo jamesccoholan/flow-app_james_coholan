@@ -29,7 +29,7 @@ export default function Home() {
     return (
       <div>
         <div>Address: {user?.addr ?? "No Address"}</div>
-        <div>Profile Name.: {name ?? "--"}</div> {/* NEW */}
+        <div>Profile Name: {name ?? "--"}</div> {/* NEW */}
         <button onClick={sendQuery}>Send Query</button> {/* NEW */}
         <button onClick={fcl.unauthenticate}>Log Out</button>
       </div>
